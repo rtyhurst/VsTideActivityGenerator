@@ -1,10 +1,10 @@
 import argparse
 import os
 import sys
+import datetime
 import pandas as pd
 import numpy as np
 from openpyxl import load_workbook
-import datetime
 
 desired_width = 179
 pd.set_option('display.width', desired_width)
